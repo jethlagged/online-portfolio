@@ -120,7 +120,7 @@ nav {
 	justify-content: space-between;
 }
 
-.boxed {
+.boxed, .header {
   width: 1278px;
   height: 500px;
   border-radius: 10px;
@@ -173,3 +173,9 @@ a:hover {
 section {
 	padding: 41px 0;
 }
+
+.dribbble {
+	height: 350px;
+}
+
+
