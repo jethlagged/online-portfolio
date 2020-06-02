@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-html, body {
-    margin: 0;
+html body {
+	margin: 0;
 }
 
 body {
@@ -51,7 +51,6 @@ h5 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin: 0;
-	color: #122B45;
 }
 
 p {
@@ -78,7 +77,7 @@ p {
   	border-radius: 4px;
 	text-decoration: none;
 	padding: 14px 27px;
-	transition: 0.5s;
+	transition: background-color 0.5s, color 0.5s;
 }
 
 .button:hover {
@@ -138,4 +137,39 @@ header img {
 
 .left-col {
 	padding-top: 81px;
+}
+
+main {
+	margin: 0 81px;
+	margin-top: 81px;
+}
+
+.thumbnail {
+	border-radius: 10px;
+	width: 582px;
+	height: 437px;
+}
+
+ul {
+	padding: 0;
+}
+
+.service {
+	list-style: none;
+	padding-top: 14px;
+	color: #7F7CAF;
+}
+
+a {
+	text-decoration: none;
+	color: #7F7CAF;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #7F7CAF;
+}
+
+section {
+	padding: 41px 0;
 }
