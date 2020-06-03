@@ -72,7 +72,7 @@ p {
 	color: #122B45;
 }
 
-.button {
+.nav-button {
   	border: .5px solid #7F7DAE;
   	border-radius: 4px;
 	text-decoration: none;
@@ -80,7 +80,7 @@ p {
 	transition: background-color 0.5s, color 0.5s;
 }
 
-.button:hover {
+.nav-button:hover {
 	background-color: #7F7DAE;
 	color: #FAFAFA;
 
@@ -91,12 +91,7 @@ p {
 }
 
 .bold {
-	font-weight: 700;
-}
-
-.bold, .emphasized {
-	font-weight: 700;
-	color: #122B45;
+	font-weight: 600;
 }
 
 nav ul li {
@@ -118,6 +113,27 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+button {
+	font-family: 'Spartan', sans-serif;
+	font-size: 13.5px;
+	line-height: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 14px 27px;
+	color: #7F7DAE;
+	background-color: white;
+	border: .5px solid #7F7DAE;
+  	border-radius: 4px;
+	padding: 14px 27px;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+	background-color: #7F7DAE;
+	color: #FAFAFA;
 }
 
 .boxed, .header {
@@ -160,22 +176,30 @@ ul {
 	color: #7F7CAF;
 }
 
-a {
-	text-decoration: none;
-	color: #7F7CAF;
-}
-
-a:hover {
-	text-decoration: underline;
-	color: #7F7CAF;
-}
-
 section {
 	padding: 41px 0;
 }
 
+a, .project {
+	text-decoration: none;
+}
+
+.project:hover {
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
 .dribbble {
 	height: 350px;
+}
+
+.big-button {
+  	border: .5px solid #7F7DAE;
+  	color: #7F7DAE;
+  	border-radius: 4px;
+	text-decoration: none;
+	padding: 14px 27px;
+	transition: background-color 0.5s, color 0.5s;
 }
 
 
