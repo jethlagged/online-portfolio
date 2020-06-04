@@ -51,6 +51,7 @@ h5 {
 	font-size: 13.5px;
 	line-height: 18px;
 	font-weight: 600;
+	color: #7F7DAE;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin: 0;
@@ -89,17 +90,8 @@ p {
 	color: #122B45;
 }
 
-.nav-button {
-  	border: .5px solid #7F7DAE;
-  	border-radius: 4px;
-	text-decoration: none;
-	padding: 14px 27px;
-	transition: background-color 0.5s, color 0.5s;
-}
+.navigation:hover {
 
-.nav-button:hover {
-	background-color: #7F7DAE;
-	color: #FAFAFA;
 }
 
 .uppercase {
