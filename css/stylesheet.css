@@ -37,9 +37,10 @@ h4 {
 	font-family: 'Spartan', sans-serif;
 	font-size: 23.99px;
 	line-height: 36px;
-	font-weight: 500;
+	font-weight: 300;
 	color: #122B45;
 	margin: 0;
+	letter-spacing: 0.5px;
 	padding: 27px 0 0 0;
 }
 
@@ -73,7 +74,7 @@ p {
 	color: #605F5E;
 }
 
-.container {
+.container-hero {
 	padding: 0;
 }
 
@@ -106,7 +107,7 @@ p {
 }
 
 .bold {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 nav ul li {
@@ -158,21 +159,34 @@ button:hover {
 	background-color: #ACC8E5;
 	margin: 0 auto;
 	border: 0;
-	padding-left: 41px;
 }
 
 header img {
 	max-width: 100%;
-	padding-left: 50px
+	padding: 0 50px;
+	align-self: center;
 }
 
 .left-col {
-	padding-top: 81px;
+	align-self: center;
+	padding: 0 41px;
 }
 
 main {
 	margin: 0 81px;
-	margin-top: 81px;
+}
+
+.container-about {
+	margin: 54px 0;
+}
+
+.about-me {
+	margin: 27px 0;
+	max-width: 603px;
+}
+
+.container-projects {
+	margin: 54px 0;
 }
 
 .thumbnail {
@@ -268,7 +282,7 @@ a, .project {
 }
 
 .fa-instagram:hover {
-  	background: linear-gradient(#FD1D1D, #C13584);
+  	background: linear-gradient(45deg, yellow, #FD1D1D, #C13584);
   	color: white;
 }
 
