@@ -10,6 +10,8 @@ body {
 	background-color: #FAFAFA;
 }
 
+/* typography */
+
 h1 {
 	font-family: 'Spartan', sans-serif;	
 	font-size: 100.98px;
@@ -41,7 +43,6 @@ h4 {
 	color: #122B45;
 	margin: 0;
 	letter-spacing: 0.5px;
-	padding: 27px 0 0 0;
 }
 
 /* h5 is for labels */ 
@@ -75,9 +76,7 @@ p {
 	color: #605F5E;
 }
 
-.container-hero {
-	padding: 0;
-}
+/* general styles */
 
 .nav-link {
 	font-family: 'Spartan', sans-serif;
@@ -102,6 +101,10 @@ p {
 
 .bold {
 	font-weight: 600;
+}
+
+ul li {
+	list-style: none;
 }
 
 nav ul li {
@@ -145,10 +148,21 @@ button:hover {
 	color: #FAFAFA;
 }
 
+/* homepage styling */
+
+.container-hero {
+	padding: 0;
+}
+
+.active {
+	color: #7F7DAE;
+	font-weight: 700;
+}
+
 .box-header {
 	width: 1278px;
 	height: 500px;
-	border-radius: 10px;
+	border-radius: 4px;
 	background-color: #ACC8E5;
 	margin: 0 auto;
 	border: 0;
@@ -160,7 +174,7 @@ header img {
 	align-self: center;
 }
 
-.left-col {
+.hero-text {
 	align-self: center;
 	padding: 0 41px;
 }
@@ -183,7 +197,7 @@ main {
 }
 
 .thumbnail {
-	border-radius: 10px;
+	border-radius: 4px;
 	width: 582px;
 	height: 437px;
 }
@@ -231,7 +245,7 @@ a, .project {
 .box-footer {
 	width: 1278px;
 	height: 341px;
-	border-radius: 10px;
+	border-radius: 4px;
 	background-color: #ACC8E5;
 	margin: 0 auto;
 	border: 0;
@@ -298,15 +312,33 @@ a, .project {
 	padding: 14px 0;
 }
 
-/*about me page*/
+/*about page styling*/
 
 .portrait {
 	max-width: 100%;
-	border-radius: 10px;
+	border-radius: 4px;
 }
 
-.right-col {
-	margin-top: 41px;
+.about {
+	margin: 0 27px;
 }
 
+.about-hero-text {
+	align-self: center;
+}
 
+.container-about {
+	margin: 81px 0;
+}
+
+.about-label {
+	text-align: right;
+}
+
+.about-experience {
+	margin: 27px 0;
+}
+
+.about-intro {
+	margin: 0;
+}
