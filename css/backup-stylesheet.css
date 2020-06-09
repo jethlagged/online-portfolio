@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+	margin: 0;
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+/* typography */
+
+h1 {
+	font-family: 'Spartan', sans-serif;	
+	font-size: 100.98px;
+	line-height: 152px;
+	font-weight: 400px;
+}
+
+h2 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 42.64px;
+	line-height: 64px;
+	font-weight: 600;
+}
+
+h3 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 31.98px;
+	line-height: 48px;
+	font-weight: 400;
+	color: #122B45;
+	margin: 0px;
+}
+
+h4 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 23.99px;
+	line-height: 36px;
+	font-weight: 300;
+	color: #122B45;
+	margin: 0;
+	letter-spacing: 0.5px;
+}
+
+/* h5 is for labels */ 
+
+h5 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 13.5px;
+	line-height: 18px;
+	font-weight: 600;
+	color: #122B45;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+h6 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 10.13px;
+	line-height: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+p {
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+	max-width: 100%;
+	color: #605F5E;
+}
+
+/* general styles */
+
+.nav-link {
+	font-family: 'Spartan', sans-serif;
+	font-size: 13.5px;
+	line-height: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0;
+	padding-left: 54px;
+	text-decoration: none;
+}
+
+.active {
+	color: #7F7DAE;
+	font-weight: 700;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+ul li {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul {
+	text-align: right;
+	padding: 27px 81px;
+}
+
+nav img {
+	align-self: left;
+	padding: 27px 81px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+button {
+	font-family: 'Spartan', sans-serif;
+	font-size: 13.5px;
+	line-height: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 14px 27px;
+	color: #7F7DAE;
+	background-color: #FAFAFA;
+	border: .5px solid #7F7DAE;
+  	border-radius: 4px;
+	padding: 14px 27px;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+	background-color: #7F7DAE;
+	color: #FAFAFA;
+}
+
+/* homepage styling */
+
+.container-hero {
+	padding: 0;
+}
+
+.active {
+	color: #7F7DAE;
+	font-weight: 700;
+}
+
+.box-header {
+	width: 1278px;
+	height: 500px;
+	border-radius: 4px;
+	background-color: #ACC8E5;
+	margin: 0 auto;
+	border: 0;
+}
+
+header img {
+	max-width: 100%;
+	padding: 0 50px;
+	align-self: center;
+}
+
+.hero-text {
+	align-self: center;
+	padding: 0 41px;
+}
+
+main {
+	margin: 0 81px;
+}
+
+.container-about {
+	margin: 54px 0;
+}
+
+.about-me {
+	margin: 27px 0;
+	max-width: 603px;
+}
+
+.container-projects {
+	margin: 54px 0;
+}
+
+.thumbnail {
+	border-radius: 4px;
+	width: 582px;
+	height: 437px;
+}
+
+ul {
+	padding: 0;
+}
+
+.service {
+	list-style: none;
+	padding-top: 14px;
+	color: #7F7CAF;
+}
+
+section {
+	padding: 41px 0;
+}
+
+a, .project {
+	text-decoration: none;
+}
+
+.project:hover {
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+.dribbble {
+	height: 350px;
+}
+
+.jumbo-link {
+	text-align: center;
+	padding: 54px 54px;
+}
+
+.jumbo-link:hover {
+	text-decoration: underline;
+}
+
+.pink {
+	color: #EA4C89;
+}
+
+.box-footer {
+	width: 1278px;
+	height: 341px;
+	border-radius: 4px;
+	background-color: #ACC8E5;
+	margin: 0 auto;
+	border: 0;
+	text-align: center;
+	padding: 81px 0;
+}
+
+.social-icons {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-flex;
+	padding: 27px;
+}
+
+.fa {
+	padding: 15px 15px;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0 14px;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+  	background: #122B45;
+  	color: white;
+  	width: 50px;
+  	display: inline-block;
+}
+
+.fa-facebook:hover {
+  	background-color: #4267B2;
+  	color: white;
+}
+
+.fa-instagram {
+  	background: #122B45;
+  	color: white;
+  	width: 50px;
+  	display: block;
+}
+
+.fa-instagram:hover {
+  	background: linear-gradient(45deg, yellow, #FD1D1D, #C13584);
+  	color: white;
+}
+
+.fa-dribbble {
+	background: #122B45;
+  	color: white;
+  	width: 50px;
+  	display: block;
+}
+
+.fa-dribbble:hover {
+  	background: #EA4C89;
+  	color: white;
+}
+
+.end-note {
+	text-align: center;
+	font-size: 13.5px;
+	color: #605F5E;
+	padding: 14px 0;
+}
+
+/*about page styling*/
+
+.portrait {
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+.about {
+	margin: 0 27px;
+}
+
+.about-hero-text {
+	align-self: center;
+}
+
+.container-about {
+	margin: 81px 0;
+}
+
+.about-label {
+	text-align: right;
+}
+
+.about-experience {
+	margin: 27px 0;
+}
+
+.about-intro {
+	margin: 0;
+}
