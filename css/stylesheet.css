@@ -96,10 +96,6 @@ p {
 
 /* navigation styles */
 
-nav {
-	overflow: hidden;
-}
-
 
 .nav-link {
 	font-family: 'Spartan', sans-serif;
@@ -157,6 +153,7 @@ nav {
 	justify-content: space-between;
 	margin: 5% 10%;
 	max-width: 100%;
+	overflow: hidden;
 }
 
 /* footer styles */
