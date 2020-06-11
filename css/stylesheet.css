@@ -4,7 +4,6 @@
 
 html body {
 	margin: 0;
-	max-width: 100%;
 }
 
 body {
@@ -13,40 +12,6 @@ body {
 
 main {
 	margin: 5% 0;
-}
-
- /* responsive */
-
-@media screen and (max-width: 600px) {
-
-	h2 {
-
-	}
-
-	h3 {
-	font-family: 'Spartan', sans-serif;
-	font-size: 18px;
-	line-height: 27px;
-	font-weight: 400;
-	color: #122B45;
-	margin: 0;
-	letter-spacing: 0.5px;
-	}
-
-	h4 {
-	font-family: 'Spartan', sans-serif;
-	font-size: 18px;
-	line-height: 27px;
-	font-weight: 300;
-	color: #122B45;
-	margin: 0;
-	letter-spacing: 0.5px;
-	}
-
-	.column {
-		width: 100%;
-	}
-
 }
 
 /* typography */
@@ -129,7 +94,12 @@ p {
 	font-weight: 600;
 }
 
-/* general styles */
+/* navigation styles */
+
+nav {
+	overflow: hidden;
+}
+
 
 .nav-link {
 	font-family: 'Spartan', sans-serif;
@@ -142,6 +112,11 @@ p {
 	color: #605F5E;
 	padding-left: 54px;
 	text-decoration: none;
+}
+
+.menu-icon {
+	font-size: 27px;
+	display: none;
 }
 
 a {
@@ -183,6 +158,8 @@ nav {
 	margin: 5% 10%;
 	max-width: 100%;
 }
+
+/* footer styles */
 
 footer {
 	align-items: center;
@@ -255,6 +232,8 @@ footer {
 	color: #605F5E;
 	padding: 14px 0;
 }
+
+/* general styles */
 
 button {
 	font-family: 'Spartan', sans-serif;
