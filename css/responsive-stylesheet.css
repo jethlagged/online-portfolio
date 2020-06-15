@@ -109,8 +109,13 @@ html body {
 	}
 
 	.menu-icon {
-		font-size: 27px;
-		display: none;
+		font-size: 35px;
+		color: #122B45;
+	}
+
+	.fa .fa-bars {
+		padding: 0;
+		margin: 0;
 	}
 
 	.hero {
@@ -235,6 +240,13 @@ html body {
 		margin: 0;
 	}
 
+	/* about page styles */
+
+	.about-portrait {
+		width: 100%;
+		height: auto;
+	}
+
 	/* footer styles */
 
 	footer {
@@ -259,48 +271,38 @@ html body {
 	}
 
 	.fa {
-		padding: 15px 15px;
 		font-size: 20px;
 		text-decoration: none;
-		margin: 0 14px;
 		border-radius: 50%;
 	}
 
 	.fa-facebook {
+		padding: 15px 15px;
+		margin: 0 14px;
 	  	background: #122B45;
 	  	color: white;
 	  	width: 45px;
 	  	display: inline-block;
 	}
 
-	.fa-facebook:hover {
-	  	background: #4267B2;
-	  	color: white;
-	}
-
 	.fa-instagram {
+		padding: 15px 15px;
+		margin: 0 14px;
 	  	background: #122B45;
 	  	color: white;
 	  	width: 45px;
 	  	display: block;
 	}
 
-	.fa-instagram:hover {
-	  	background: linear-gradient(45deg, yellow, #FD1D1D, #C13584);
-	  	color: white;
-	}
-
 	.fa-dribbble {
+		padding: 15px 15px;
+		margin: 0 14px;
 		background: #122B45;
 	  	color: white;
 	  	width: 45px;
 	  	display: block;
 	}
 
-	.fa-dribbble:hover {
-	  	background: #EA4C89;
-	  	color: white;
-	}
 
 	.end-note {
 		text-align: center;
