@@ -152,10 +152,6 @@ html body {
 		margin: 10% 5%;
 	}
 
-	.topnav {
-		display: none;
-	}
-
 	.project-overlay-link {
 		display: none;
 	}
@@ -179,6 +175,7 @@ html body {
 	img {
 		width: 100%
 		height: auto;
+		display: block;
 	}
 
 	/* homepage styles */
@@ -190,10 +187,6 @@ html body {
 
 	.container {
 		padding-top: 27px;
-	}
-
-	.project-container {
-		display: inline-flex;
 	}
 
 	.row {
