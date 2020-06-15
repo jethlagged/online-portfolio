@@ -214,7 +214,7 @@ html body {
 
 	.project-thumbnail {
 		max-width: 100%;
-		height: inherit;
+		object-fit: cover;
 	}
 
 	.col-description {
