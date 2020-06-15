@@ -306,11 +306,67 @@ html body {
 		text-align: center;
 		font-size: 13.5px;
 		color: #605F5E;
-		padding: 14px 0;
+		padding: 14px 14px;
 	}
 }
 
+@media screen and (max-width: 375px) {
+	
+	h1 {
+		font-family: 'Spartan', sans-serif;
+		font-size: 28.43px;
+		line-height: 42.65px;
+		font-weight: 400;
+		color: #122B45;
+		margin: 14px 0;
+	}
 
+	h2 {
+		font-family: 'Spartan', sans-serif;
+		font-size: 23.99px;
+		line-height: 36px;
+		font-weight: 400;
+		color: #122B45;
+		margin: 0;
+		letter-spacing: 0.5px;
+	}
+
+	h3 {
+		font-family: 'Spartan', sans-serif;
+		font-size: 21.33px;
+		line-height: 32px;
+		font-weight: 400;
+		color: #122B45;
+		margin: 0;
+		letter-spacing: 0.5px;
+	}
+
+	h4 {
+		font-family: 'Spartan', sans-serif;
+		font-size: 21.33px;
+		line-height: 32px;
+		font-weight: 300;
+		color: #122B45;
+		margin: 0;
+		letter-spacing: 0.5px;
+	}
+
+	.header-homepage {
+		margin: 0 5%;
+		padding: 35% 0 10% 0;
+	}
+
+	main {
+		padding: 10% 0%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	main {
+		padding: 20% 0;
+	}
+}
 
 
 
