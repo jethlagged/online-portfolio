@@ -176,6 +176,11 @@ html body {
 		letter-spacing: 0.5px;
 	}
 
+	img {
+		width: 100%
+		height: auto;
+	}
+
 	/* homepage styles */
 
 	.header-homepage {
