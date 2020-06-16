@@ -113,6 +113,31 @@ html body {
 		color: #122B45;
 	}
 
+	.topnav.responsive {
+		position: relative;
+	}
+  	
+  	.topnav.responsive a.menu-icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	 }
+
+ 	.topnav.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	 }
+
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+  	.topnav a.icon {
+	    float: right;
+	    display: block;
+	}
+
 	.fa .fa-bars {
 		padding: 0;
 		margin: 0;

@@ -14,15 +14,25 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav>
+	<nav class="topnav" id="MyTopnav">
 		<a href="index.html"><img src="img/temp-logo.svg"></a>
 		<ul>
-			<li class="nav-link"><a href="about.html">About me</a></li>
-			<li class="nav-link"><a href="#featured-works">Works</a></li>
-			<li class="nav-link"><button>Let's chat</button></li>
+			<li class="nav-link">About me</li>
+			<li class="nav-link"><a href="index.html#featured-works">Works</a></li>
+			<li class="nav-link"><a href="mailto:jeth.ordeniza@gmail.com"><button>Let's chat</button></a></li>
 			<a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
     		<i class="fa fa-bars"></i></a>
 		</ul>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+		</script>
 	</nav>
 	<main>
 		<!-- hero -->
@@ -96,7 +106,7 @@
 	<footer>
 		<div class="box-footer">
 			<h2>Talk soon?</h2><br>
-			<h4>jeth.ordeniza@gmail.com</h4>
+			<h4><a href="mailto:jeth.ordeniza@gmail.com" class="contact-email">jeth.ordeniza@gmail.com</a></h4>
 			<!-- social icons -->
 			<ul class="social-icons">
 				<li><a href="https://web.facebook.com/jeth.ordeniza" target="_blank" class="fa fa-facebook"></a></li>
