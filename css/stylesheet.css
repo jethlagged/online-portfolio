@@ -98,6 +98,10 @@ main {
 
 	/* navigation styles */
 
+	.overlay {
+		display: none;
+	}
+
 
 	.nav-link {
 		font-family: 'Spartan', sans-serif;
@@ -110,11 +114,6 @@ main {
 		color: #605F5E;
 		padding-left: 54px;
 		text-decoration: none;
-	}
-
-	.menu-icon {
-		font-size: 27px;
-		display: none;
 	}
 
 	.topnav.responsive {
@@ -152,6 +151,13 @@ main {
 		color: #122B45;
 		border-bottom: 2px;
 	}
+
+	.overlay {
+		display: none;
+		background-color: black;
+	}
+
+	/**/
 
 	ul {
 		margin: 0;

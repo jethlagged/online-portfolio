@@ -21,9 +21,32 @@
 				<li class="nav-link"><a href="about.html">About me</a></li>
 				<li class="nav-link"><a href="#featured-works">Works</a></li>
 				<li class="nav-link"><a href="mailto:jeth.ordeniza@gmail.com"><button>Let's chat</button></a></li>
-				<a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
-	    		<i class="fa fa-bars"></i></a>
 			</ul>
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<ul>
+						<li class="nav-link"><a href="about.html">About me</a></li>
+						<li class="nav-link"><a href="#featured-works">Works</a></li>
+						<li class="nav-link"><a href="mailto:jeth.ordeniza@gmail.com"><button>Let's chat</button></a></li>
+					</ul>
+				</div>
+				<label class='toggle-btn toggle-btn__cross' for='toggle'>
+				    <div class="bar"></div>
+				    <div class="bar"></div>
+				    <div class="bar"></div>
+				</label>
+			</div>
+			</a>
+			<script>
+				function openNav() {
+				  document.getElementById("myNav").style.display = "block";
+				}
+
+				function closeNav() {
+				  document.getElementById("myNav").style.display = "none";
+				}
+			</script>
 		</nav>
 		<header class="header-homepage">
 			<h1 class="header-header">Hello, I'm Jeth &#128075</h1>
