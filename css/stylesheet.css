@@ -121,6 +121,18 @@ main {
 		display: none;
 	}
 
+	.overlay-content {
+		display: none;
+	}
+
+	.closebtn {
+		display: none;
+	}
+
+	.hamburger-menu-icon {
+		display: none;
+	}
+
 	/**/
 
 	a {

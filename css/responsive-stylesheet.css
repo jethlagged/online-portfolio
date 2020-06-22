@@ -94,17 +94,26 @@ html body {
 
 	/* navigation */
 
-	.desktop-nav{
+	.desktop-nav {
 		display: none;
 	}
 
 	nav {
-		margin: 5% 10%;
+		margin: 10% 5%;
 	}
 
 	.hamburger-menu-icon {
 		float: right;
+		padding: 27px 0;
 	}
+
+	.bar {
+	    width: 30px;
+	    height: 3px;
+	    margin: 5px auto;
+	    background-color: black;
+	    transition:all 0.3s ease-in-out;
+  	}
 
 	.mobile-nav-links {
 		font-family: 'Spartan', sans-serif;
@@ -114,7 +123,6 @@ html body {
 		color: #122B45;
 		text-transform: uppercase;
 		letter-spacing: 2px;
-		padding: 0 27px;
 	}
 
 	.overlay { 
@@ -124,18 +132,18 @@ html body {
         position: fixed; 
         top: 0; 
         left: 0; 
-        background-color: #F8F8F8; 
+        background-color: #F8F8F8;
     } 
 
     .overlay-content { 
         position: relative; 
-        top: 25%; 
+        top: 35%; 
         width: 100%; 
         text-align: center; 
     } 
 
     .overlay a { 
-        padding: 10px; 
+        padding: 14px; 
         text-decoration: none;  
         display: block; 
         transition: 0.3s; 
@@ -148,18 +156,12 @@ html body {
 
     .overlay .closebtn { 
         position: absolute; 
+        padding: 27px 0;
         top: 5%; 
-        right: 10%;
-        font-size: 30px;  
+        right: 5%;
+        font-family: 'Spartan', sans-serif;
+        font-size: 41px;
     } 
-
-    .bar {
-	    width:30px;
-	    height:2px;
-	    margin:5px auto;
-	    background-color: black;
-	    transition:all 0.3s ease-in-out;
-  	}
 
 	/* general styles */
 
@@ -192,7 +194,7 @@ html body {
 		padding: 14px 27px;
 		color: #122B45;
 		background-color: #F8F8F8;
-		border: .5px solid #122B45;
+		border: 1px solid #122B45;
 	  	border-radius: 2px;
 		padding: 14px 27px;
 		transition: background-color 0.5s, color 0.5s;

@@ -16,6 +16,10 @@
 <body>
 	<nav>
 		<!-- desktop navigation -->
+		<span onclick="openNav()" class="hamburger-menu-icon">
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</span>
 		<a href="index.html" class="logo"><img src="img/temp-logo.svg"></a>
 		<div class="desktop-nav">
 			<a href="about.html" class="nav-links">About</a>
@@ -24,15 +28,13 @@
 		</div>
 		<!-- mobile navigation -->
 		<div id="myNav" class="overlay"> 
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <div class="overlay-content"> 
-            <a href="#" class="mobile-nav-links">About</a>  
-            <a href="#" class="mobile-nav-links">Courses</a> 
-         	<a href="mailto:jeth.ordeniza@gmail.com" class="mobile-nav-links"><button>Let's chat</button></a>
-        </div> 
-    	</div> 
-		<span style="font-size:35px;"
-            onclick="openNav()" class="hamburger-menu-icon">≡</span>
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	        <div class="overlay-content"> 
+	            <a href="about.html" class="mobile-nav-links">About</a>  
+	            <a href="index.html#featured-works" class="mobile-nav-links">Works</a> 
+	         	<a href="mailto:jeth.ordeniza@gmail.com" class="mobile-nav-links"><button>Let's chat</button></a>
+	        </div> 
+    	</div>
 		<script> 	  
 		    function openNav() { 
 		        document.getElementById("myNav").style.display = "block"; 
