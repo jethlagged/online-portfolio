@@ -14,45 +14,38 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="hero">
-		<nav>
-			<a href="index.html"><img src="img/temp-logo.svg"></a>
-			<ul>
-				<li class="nav-link"><a href="about.html">About me</a></li>
-				<li class="nav-link"><a href="#featured-works">Works</a></li>
-				<li class="nav-link"><a href="mailto:jeth.ordeniza@gmail.com"><button>Let's chat</button></a></li>
-			</ul>
-			<div id="myNav" class="overlay">
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-				<div class="overlay-content">
-					<ul>
-						<li class="nav-link"><a href="about.html">About me</a></li>
-						<li class="nav-link"><a href="#featured-works">Works</a></li>
-						<li class="nav-link"><a href="mailto:jeth.ordeniza@gmail.com"><button>Let's chat</button></a></li>
-					</ul>
-				</div>
-				<label class='toggle-btn toggle-btn__cross' for='toggle'>
-				    <div class="bar"></div>
-				    <div class="bar"></div>
-				    <div class="bar"></div>
-				</label>
-			</div>
-			</a>
-			<script>
-				function openNav() {
-				  document.getElementById("myNav").style.display = "block";
-				}
-
-				function closeNav() {
-				  document.getElementById("myNav").style.display = "none";
-				}
-			</script>
-		</nav>
-		<header class="header-homepage">
-			<h1 class="header-header">Hello, I'm Jeth &#128075</h1>
-			<h4 class="header-description">I’m a <span class="bold">UI/UX Designer</span> based in Manila, Philippines. I like making pretty things, finding solutions to problems, and challenging myself to learn new things.</h4>
-		</header>
-	</div>
+	<nav>
+		<!-- desktop navigation -->
+		<a href="index.html" class="logo"><img src="img/temp-logo.svg"></a>
+		<div class="desktop-nav">
+			<a href="about.html" class="nav-links">About</a>
+			<a href="index.html#featured-works" class="nav-links">Works</a>
+			<a href="mailto:jeth.ordeniza@gmail.com" class="nav-links" style="padding: 0 0 0 27px;"><button>Let's chat</button></a>
+		</div>
+		<!-- mobile navigation -->
+		<div id="myNav" class="overlay"> 
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="overlay-content"> 
+            <a href="#" class="mobile-nav-links">About</a>  
+            <a href="#" class="mobile-nav-links">Courses</a> 
+         	<a href="mailto:jeth.ordeniza@gmail.com" class="mobile-nav-links"><button>Let's chat</button></a>
+        </div> 
+    	</div> 
+		<span style="font-size:35px;"
+            onclick="openNav()" class="hamburger-menu-icon">≡</span>
+		<script> 	  
+		    function openNav() { 
+		        document.getElementById("myNav").style.display = "block"; 
+		    } 
+		    function closeNav() { 
+		        document.getElementById("myNav").style.display = "none"; 
+		    } 
+		</script> 
+	</nav>
+	<header class="header-homepage">
+		<h1 class="header-header">Hello, I'm Jeth &#128075</h1>
+		<h4 class="header-description">I’m a <span class="bold">UI/UX Designer</span> based in Manila, Philippines. I like making pretty things, finding solutions to problems, and challenging myself to learn new things.</h4>
+	</header>
 	<main>
 		<h2 class="section-title" id="featured-works">Featured works</h2>
 		<div class="container">

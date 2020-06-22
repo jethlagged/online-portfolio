@@ -92,37 +92,76 @@ html body {
 		color: #EA4C89;
 	}
 
-	/* general styles */
+	/* navigation */
 
-	.nav-link {
+	.desktop-nav{
+		display: none;
+	}
+
+	nav {
+		margin: 5% 10%;
+	}
+
+	.hamburger-menu-icon {
+		float: right;
+	}
+
+	.mobile-nav-links {
 		font-family: 'Spartan', sans-serif;
 		font-size: 13.5px;
 		line-height: 18px;
 		font-weight: 500;
+		color: #122B45;
 		text-transform: uppercase;
 		letter-spacing: 2px;
-		margin: 0;
-		color: #605F5E;
-		padding-left: 54px;
-		text-decoration: none;
-		overflow: hidden;
+		padding: 0 27px;
 	}
 
-	.bar {
-    width:30px;
-    height:2px;
-    margin:7px auto;
-    color: black;
-    background-color: black;
-    transition:all 0.3s ease-in-out;
+	.overlay { 
+        height: 100%; 
+        width: 100%; 
+        display: none; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        background-color: #F8F8F8; 
+    } 
+
+    .overlay-content { 
+        position: relative; 
+        top: 25%; 
+        width: 100%; 
+        text-align: center; 
+    } 
+
+    .overlay a { 
+        padding: 10px; 
+        text-decoration: none;  
+        display: block; 
+        transition: 0.3s; 
+    } 
+
+    .overlay a:hover, 
+    .overlay a:focus { 
+        color: black; 
+    } 
+
+    .overlay .closebtn { 
+        position: absolute; 
+        top: 5%; 
+        right: 10%;
+        font-size: 30px;  
+    } 
+
+    .bar {
+	    width:30px;
+	    height:2px;
+	    margin:5px auto;
+	    background-color: black;
+	    transition:all 0.3s ease-in-out;
   	}
 
-
-
-	.fa .fa-bars {
-		padding: 0;
-		margin: 0;
-	}
+	/* general styles */
 
 	.hero {
 		height: 80vh;
@@ -134,15 +173,6 @@ html body {
 		text-decoration: none;
 	}
 
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		margin: 5% 5%;
-		max-width: 100%;
-		overflow: hidden;
-	}
-
 	ul {
 		margin: 0;
 		padding: 0;
@@ -152,16 +182,20 @@ html body {
 		list-style: none;
 	}
 
-	nav ul li {
-		display: none;
-	}
-
-	nav ul {
-		text-align: right;
-	}
-
-	nav img {
-		align-self: left;
+	button {
+		font-family: 'Spartan', sans-serif;
+		font-size: 13.5px;
+		line-height: 18px;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		padding: 14px 27px;
+		color: #122B45;
+		background-color: #F8F8F8;
+		border: .5px solid #122B45;
+	  	border-radius: 2px;
+		padding: 14px 27px;
+		transition: background-color 0.5s, color 0.5s;
 	}
 
 	main {
@@ -376,6 +410,3 @@ html body {
 		padding: 20% 0;
 	}
 }
-
-
-
