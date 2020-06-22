@@ -15,15 +15,34 @@
 </head>
 <body>
 	<nav>
-		<a href="#logo"><img src="img/temp-logo.svg"></a>
-		<ul>
-			<li class="nav-link">About me</li>
-			<li class="nav-link"><a href="index.html#featured-works">Works</a></li>
-			<li class="nav-link"><a href="mailto:jeth.ordeniza@gmail.com"><button>Let's chat</button></a></li>
-			<a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
-    			<i class="fa fa-bars"></i>
-    		</a>
-		</ul>
+		<!-- desktop navigation -->
+		<span onclick="openNav()" class="hamburger-menu-icon">
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</span>
+		<a href="index.html" class="logo"><img src="img/temp-logo.svg"></a>
+		<div class="desktop-nav">
+			<a href="about.html" class="nav-links">About</a>
+			<a href="index.html#featured-works" class="nav-links">Works</a>
+			<a href="mailto:jeth.ordeniza@gmail.com" class="nav-links" style="padding: 0 0 0 27px;"><button>Let's chat</button></a>
+		</div>
+		<!-- mobile navigation -->
+		<div id="myNav" class="overlay"> 
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	        <div class="overlay-content"> 
+	            <a href="about.html" class="mobile-nav-links">About</a>  
+	            <a href="index.html#featured-works" class="mobile-nav-links">Works</a> 
+	         	<a href="mailto:jeth.ordeniza@gmail.com" class="mobile-nav-links"><button>Let's chat</button></a>
+	        </div> 
+    	</div>
+		<script> 	  
+		    function openNav() { 
+		        document.getElementById("myNav").style.display = "block"; 
+		    } 
+		    function closeNav() { 
+		        document.getElementById("myNav").style.display = "none"; 
+		    } 
+		</script> 
 	</nav>
 	<main>
 		<!-- hero -->
@@ -34,7 +53,7 @@
 			</div>
 			<div class="col-middle"></div>
 			<div class="column col-about-portrait">
-				<img src="img/portrait.jpg" class="about-portrait" alt="a photo of me">
+				<img src="img/portrait-2.jpeg" class="about-portrait" alt="a photo of me">
 			</div>
 		</div>
 		<!-- more bio -->
@@ -53,7 +72,7 @@
 		</div>
 		<!-- experience -->
 		<div class="row">
-			<div class="column about-label"><h5>Experience</h5></div>
+			<div class="column about-label"><h5 style="color: #668586;">Experience</h5></div>
 			<div class="col-middle"></div>
 			<div class="column about-bio">
 				<ul>
@@ -78,7 +97,7 @@
 		</div>
 		<!-- education -->
 		<div class="row">
-			<div class="column about-label"><h5>Education</h5></div>
+			<div class="column about-label"><h5 style="color: #668586;">Education</h5></div>
 			<div class="col-middle"></div>
 			<div class="column about-bio">
 				<ul>
