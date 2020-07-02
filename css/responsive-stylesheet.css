@@ -353,6 +353,13 @@ html body {
 		color: #605F5E;
 		padding: 14px 14px;
 	}
+
+	/* case study */
+
+	.row-project {
+		padding-bottom: 54px;
+		flex-direction: row;
+	}
 }
 
 @media screen and (max-width: 375px) {

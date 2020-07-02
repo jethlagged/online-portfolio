@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Works</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive-stylesheet.css">
+	<!-- for icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- headings -->
+	<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<!-- body -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- desktop navigation -->
+	<nav>
+		<span onclick="openNav()" class="hamburger-menu-icon">
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</span>
+		<a href="index.html" class="logo"><img src="img/temp-logo.svg"></a>
+		<div class="desktop-nav">
+			<a href="about.html" class="nav-links">About</a>
+			<a href="index.html#featured-works" class="nav-links">Works</a>
+			<a href="mailto:jeth.ordeniza@gmail.com" class="nav-links" style="padding: 0 0 0 27px;"><button>Let's chat</button></a>
+		</div>
+		<!-- mobile navigation -->
+		<div id="myNav" class="overlay"> 
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	        <div class="overlay-content">
+	        	<a href="index.html" class="mobile-nav-links">Home</a> 
+	            <a href="about.html" class="mobile-nav-links">About</a>  
+	            <a href="index.html#featured-works" class="mobile-nav-links">Works</a> 
+	         	<a href="mailto:jeth.ordeniza@gmail.com" class="mobile-nav-links"><button>Let's chat</button></a>
+	        </div> 
+    	</div>
+		<script> 	  
+		    function openNav() { 
+		        document.getElementById("myNav").style.display = "block"; 
+		    } 
+		    function closeNav() { 
+		        document.getElementById("myNav").style.display = "none"; 
+		    } 
+		</script> 
+	</nav>
+	<main>
+		<section class="gallery">
+			<h2>Works</h2>
+			<p>For the past three years, </p>
+			<div class="row-gallery">
+				<div class="left-thumbnail">
+					<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+				<div class="middle-thumbnail">
+					<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+				<div class="right-thumbnail">
+					<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+			</div>
+			<div class="row-gallery">
+				<div class="left-thumbnail">
+					<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+				<div class="middle-thumbnail">
+				<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+				<div class="right-thumbnail">
+					<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+			</div>
+			<div class="row-gallery">
+				<div class="left-thumbnail">
+					<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+				<div class="middle-thumbnail">
+					<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+				<div class="right-thumbnail">
+					<img src="img/tourismistic-thumbnail.jpg" class="gallery-thumbnail">
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

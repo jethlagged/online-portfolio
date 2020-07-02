@@ -62,7 +62,7 @@ main {
 		font-size: 13.5px;
 		line-height: 18px;
 		font-weight: 600;
-		color: #122B45;
+		color: #668586;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		margin: 0;
@@ -73,7 +73,7 @@ main {
 		font-size: 10.13px;
 		line-height: 14px;
 		font-weight: 600;
-		color: #122B45;
+		color: #668586;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		margin: 0;
@@ -246,6 +246,15 @@ main {
 		color: #FAFAFA;
 	}
 
+	.big-button {
+		text-transform: none;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		letter-spacing: .5px;
+		padding: 27px 54px;
+	}
+
 	.jumbo-link {
 		text-align: center;
 		margin: 54px 0;
@@ -378,7 +387,7 @@ main {
 		font-size: 10.13px;
 		line-height: 14px;
 		font-weight: 600;
-		color: #122B45;
+		color: #668586;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 	}
@@ -414,6 +423,132 @@ main {
 	.about-experience {
 	}
 
+	/* gallery styles */
+
+	.gallery {
+		margin: 0% 10%;
+	}
+
+	.row-gallery {
+		display: flex;
+	  	align-self: center;
+	  	flex-direction: row;
+	  	padding-top: 27px;
+	}
+
+	.gallery-thumbnail {
+		width: 100%;
+	}
+
+	.middle-thumbnail {
+		padding-right: 2%;
+		padding-left: 2%
+	}
+
+	/* case study styles */
+
+	.project-introduction {
+		margin: 0 10%;
+	}
+
+	.row-project {
+		display: flex;
+	  	margin: 0 10%;
+	  	align-self: center;
+	  	flex-direction: row;
+	}
+
+	.project-block-1 {
+		margin: 5% 10%;
+	}
+
+	.project-description {
+		max-width: 65%
+	}
+
+	.row-project-label {
+		margin: 0;
+		margin-top: 41px;
+	}
+
+	.col-img-thumbnail {
+		border-radius: 2px;
+		width: 100%;
+	}
+
+	.proj-img-caption {
+		font-style: italic;
+		font-family: 'Spartan', sans-serif;
+		font-size: 13.5px;
+		line-height: 18px;
+		font-weight: 300;
+		color: #122B45;
+		padding: 0 27px;
+		text-align: center;
+	}
+
+	.project-block-2 {
+		background-color: #FFFFFF;
+		width: 100%;
+	}
+
+	.style-guide {
+		margin: 0 10%;
+		padding: 81px 0;
+	}
+
+	.color-circle {
+		width: 75px;
+		height: 75px;
+		border-radius: 300px;
+	}
+
+	.row-list {
+		display: flex;
+	  	align-self: center;
+	  	flex-direction: row;
+	}
+
+	.brand-color {
+		padding-right: 27px;
+	}
+
+	.small-caption {
+		font-size: 13.5px;
+		text-align: center;
+	}
+
+	.project-apps {
+		padding-top: 54px;
+	}
+
+	.application-logo {
+		width: 75px;
+		height: 75px;
+	}
+
+	.project-application {
+		margin: 41px 54px 41px 0px;
+	}
+
+	.project-block-3 {
+		background-color: #002642;
+		width: 100%;
+	}
+
+	.text-invert {
+		color: white;
+	}
+
+	.sticky {
+		position: -webkit-sticky;
+  		position: sticky;
+  		top: 0;
+	}
+
+	.sticky-col-description {
+
+	}
 }
 
 
