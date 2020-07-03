@@ -92,6 +92,15 @@ html body {
 		color: #EA4C89;
 	}
 
+	.small-caption {
+		font-size: 13.5px;
+		text-align: center;
+	}
+
+	.text-invert {
+		color: white;
+	}
+
 	/* navigation */
 
 	.desktop-nav {
@@ -356,9 +365,143 @@ html body {
 
 	/* case study */
 
-	.row-project {
-		padding-bottom: 54px;
+	.project-introduction {
+		margin: 5% 5%;
+	}
+
+	.row-project-label {
+		display: flex;
 		flex-direction: row;
+		padding-top: 27px;
+	}
+
+	.row {
+		padding-bottom: 54px;
+	}
+
+	.row-project {
+		display: flex;
+		flex-direction: row;
+		margin: 0 5%;
+	}
+
+	.project-label {
+		width: 189px;
+	}
+
+	.project-block-1 {
+		margin: 10% 5%;
+	}
+
+	.project-block-2 {
+		background-color: #FFFFFF;
+		width: 100%;
+		padding: 10% 5% 2% 5%;
+	}
+
+	.project-block-3 {
+		background-color: #002642;
+		width: 100%;
+	}
+
+	.row-list {
+		display: inline-flex;
+		padding-top: 27px;
+	}
+
+	.project-application {
+		padding-right: 27px;
+	}
+
+	.application-logo {
+		width: 50px;
+		height: 50px;
+	}
+
+	.project-apps {
+		padding-top: 27px;
+	}
+
+	.color-circle {
+		width: 75px;
+		height: 75px;
+		border-radius: 300px;
+	}
+
+	.brand-color {
+		padding-right: 27px;
+	}
+
+	.sticky {
+		position: -webkit-sticky;
+  		position: sticky;
+  		top: 0;  		
+  		padding: 60% 0;
+  		padding-right: 20%;
+	}
+
+	.col-img-thumbnail {
+		padding: 14px 0;
+		width: 100%;
+	}
+
+	.small-caption .text-invert {
+		margin: 0;
+	}
+
+	.big-button {
+		text-transform: none;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		letter-spacing: .5px;
+		padding: 27px 54px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+
+	.row-project {
+		display: block;
+	}
+
+	.row-list {
+		display: inline-flex;
+		padding-top: 27px;
+	}
+
+	.project-apps {
+		padding-top: 27px;
+	}
+
+	.color-circle {
+		width: 75px;
+		height: 75px;
+		border-radius: 300px;
+	}
+
+	.project-application {
+		padding-right: 27px;
+	}
+
+	.application-logo {
+		width: 50px;
+		height: 50px;
+	}
+
+	.sticky {	
+		position: unset;	
+  		padding: 54px 0 27px 0;
+  		padding-right: 0%;
+	}
+
+	.big-button {
+		text-transform: none;
+		font-weight: 400;
+		font-size: 13.5px;
+		line-height: 18px;
+		letter-spacing: .5px;
+		padding: 27px 54px;
 	}
 }
 

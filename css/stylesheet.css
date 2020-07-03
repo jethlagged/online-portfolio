@@ -420,8 +420,6 @@ main {
 		width: 60%
 	}
 
-	.about-experience {
-	}
 
 	/* gallery styles */
 
@@ -458,6 +456,14 @@ main {
 	  	flex-direction: row;
 	}
 
+	.project-label {
+		width: 20%;
+	}
+
+	.project-img {
+		padding-top: 54px;
+	}
+
 	.project-block-1 {
 		margin: 5% 10%;
 	}
@@ -474,6 +480,7 @@ main {
 	.col-img-thumbnail {
 		border-radius: 2px;
 		width: 100%;
+		padding: 27px 0;
 	}
 
 	.proj-img-caption {
@@ -494,7 +501,7 @@ main {
 
 	.style-guide {
 		margin: 0 10%;
-		padding: 81px 0;
+		padding-top: 81px;
 	}
 
 	.color-circle {
@@ -507,6 +514,10 @@ main {
 		display: flex;
 	  	align-self: center;
 	  	flex-direction: row;
+	}
+
+	.column .col-colors {
+		display: flex;
 	}
 
 	.brand-color {
@@ -528,12 +539,13 @@ main {
 	}
 
 	.project-application {
-		margin: 41px 54px 41px 0px;
+		margin: 27px 54px 0px 0px;
 	}
 
 	.project-block-3 {
 		background-color: #002642;
 		width: 100%;
+		padding: 54px 0;
 	}
 
 	.text-invert {
@@ -544,10 +556,8 @@ main {
 		position: -webkit-sticky;
   		position: sticky;
   		top: 0;
-	}
-
-	.sticky-col-description {
-
+  		padding: 69% 0;
+  		padding-right: 20%;
 	}
 }
 
