@@ -369,12 +369,6 @@ html body {
 		margin: 5% 5%;
 	}
 
-	.row-project-label {
-		display: flex;
-		flex-direction: row;
-		padding-top: 27px;
-	}
-
 	.row {
 		padding-bottom: 54px;
 	}
@@ -383,6 +377,13 @@ html body {
 		display: flex;
 		flex-direction: row;
 		margin: 0 5%;
+	}
+
+	.row-project-label {
+		display: flex;
+		flex-direction: row;
+		padding-top: 27px;
+		padding-bottom: 0px;
 	}
 
 	.project-label {
