@@ -464,6 +464,10 @@ main {
 		padding-top: 54px;
 	}
 
+	.full-img {
+		display: none;
+	}
+
 	.project-block-1 {
 		margin: 5% 10%;
 	}
@@ -556,7 +560,7 @@ main {
 		position: -webkit-sticky;
   		position: sticky;
   		top: 0;
-  		padding: 69% 0;
+  		padding: 60% 0;
   		padding-right: 20%;
 	}
 }

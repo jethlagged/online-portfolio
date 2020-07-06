@@ -63,7 +63,7 @@ html body {
 		font-size: 13.5px;
 		line-height: 18px;
 		font-weight: 600;
-		color: #122B45;
+		color: #668586;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		margin: 0;
@@ -74,7 +74,7 @@ html body {
 		font-size: 10.13px;
 		line-height: 14px;
 		font-weight: 600;
-		color: #122B45;
+		color: #668586;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		margin: 0;
@@ -401,12 +401,13 @@ html body {
 	}
 
 	.project-block-3 {
-		background-color: #002642;
 		width: 100%;
 	}
 
 	.row-list {
-		display: inline-flex;
+		display: flex;
+		align-self: center;
+	  	flex-direction: row;
 		padding-top: 27px;
 	}
 
@@ -445,6 +446,10 @@ html body {
 	.col-img-thumbnail {
 		padding: 14px 0;
 		width: 100%;
+	}
+
+	.cropped-img {
+		display: none;
 	}
 
 	.small-caption .text-invert {
