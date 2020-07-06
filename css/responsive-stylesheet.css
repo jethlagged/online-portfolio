@@ -417,6 +417,7 @@ html body {
 	.application-logo {
 		width: 50px;
 		height: 50px;
+		margin: auto;
 	}
 
 	.project-apps {
@@ -467,7 +468,8 @@ html body {
 	}
 
 	.row-list {
-		display: inline-flex;
+		display: flex;
+		flex-wrap: wrap;
 		padding-top: 27px;
 	}
 
@@ -476,7 +478,7 @@ html body {
 	}
 
 	.color-circle {
-		width: 75px;
+		width: 74px;
 		height: 75px;
 		border-radius: 300px;
 	}
