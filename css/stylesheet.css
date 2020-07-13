@@ -423,24 +423,38 @@ main {
 
 	/* gallery styles */
 
-	.gallery {
-		margin: 0% 10%;
+	.header-gallery {
+		margin: 0 10%;
 	}
 
-	.row-gallery {
-		display: flex;
-	  	align-self: center;
-	  	flex-direction: row;
-	  	padding-top: 27px;
+	.gallery-tab {
+		margin: 5% 10% 0 10%;
 	}
 
-	.gallery-thumbnail {
-		width: 100%;
+	.tablink {
+		color: darkgray;
+		background-color: inherit;
+		float: left;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 14px 54px 14px 0;
+		transition: 0.3s;
 	}
 
-	.middle-thumbnail {
-		padding-right: 2%;
-		padding-left: 2%
+	.gallery-tab button:hover {
+		color: #122B45;
+		background-color: #FAFAFA;
+	}
+
+	.gallery-tab button.active {
+		color: #122B45;
+	}
+
+	.line {
+		margin: 1% 10%;
+		width: 26%;
+		border-bottom: 3px darkgray;
 	}
 
 	/* case study styles */
@@ -484,7 +498,6 @@ main {
 	.col-img-thumbnail {
 		border-radius: 2px;
 		width: 100%;
-		padding: 27px 0;
 	}
 
 	.proj-img-caption {
@@ -564,5 +577,3 @@ main {
   		padding-right: 20%;
 	}
 }
-
-
