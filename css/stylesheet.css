@@ -431,6 +431,13 @@ main {
 		margin: 5% 10% 0 10%;
 	}
 
+	.row-gallery {
+		display: flex;
+	  	margin: 0 10%;
+	  	align-self: center;
+	  	flex-direction: row;
+	}
+
 	.tablink {
 		color: darkgray;
 		background-color: inherit;

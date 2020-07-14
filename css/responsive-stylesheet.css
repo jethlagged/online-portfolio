@@ -299,6 +299,37 @@ html body {
 		height: auto;
 	}
 
+	/* gallery styles */
+
+	.gallery-tab {
+		margin: 5% 0 0 0;
+	}
+
+	.row-gallery {
+		display: block;
+		flex-direction: row;
+	}
+
+	.tablink {
+		color: darkgray;
+		background-color: inherit;
+		float: left;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 14px 27px 14px 0;
+		transition: 0.3s;
+	}
+
+	.gallery-tab button:hover {
+		color: #122B45;
+		background-color: #FAFAFA;
+	}
+
+	.gallery-tab button.active {
+		color: #122B45;
+	}
+
 	/* footer styles */
 
 	footer {
