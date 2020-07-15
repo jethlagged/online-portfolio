@@ -255,6 +255,12 @@ html body {
 		flex-direction: row;
 	}
 
+	.row-about {
+		padding-bottom: 54px;
+		flex-direction: row;
+		margin: 0 0 2% 0;
+	}
+
 	.row-even {
 		flex-direction: row-reverse;
 	}
@@ -298,7 +304,6 @@ html body {
 		width: 100%;
 		height: auto;
 	}
-
 	/* gallery styles */
 
 	.gallery-tab {

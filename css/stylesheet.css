@@ -269,10 +269,17 @@ main {
 	}
 
 	.row {
-	  display: flex;
-	  margin: 5% 10% 12% 10%;
-	  align-self: center;
-	  flex-direction: row;
+	  	display: flex;
+	  	margin: 5% 10% 10% 10%;
+	  	align-self: center;
+	  	flex-direction: row;
+	}
+
+	.row-about {
+		display: flex;
+	  	margin: 5% 10% 5% 10%;
+	  	align-self: center;
+	  	flex-direction: row;
 	}
 
 	.row-even {
